@@ -4,11 +4,6 @@
 //На данный момент понятия не имею как это сделать
 void RecursiverPrintNaturalNumnbers(int N)
 {
-    Console.Write(N);
-    if (N == 1)return;
-    else
-    {
-        RecursiverPrintNaturalNumnbers(N);
-
-    }
+    Console.Write($"{N}, ");
+    
 }
